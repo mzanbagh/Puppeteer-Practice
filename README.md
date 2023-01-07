@@ -1,4 +1,4 @@
-## Puppeteer Web Scraping and speed of headless 
+## Puppeteer Web Scraping and speed of headless Chrome &reg;
 
 Puppeteer is a Node.js library that provides a high-level API for controlling headless Chrome or Chromium over the DevTools Protocol. It is a powerful tool for web scraping because it allows you to scrape websites that use JavaScript, cookies, and other complex features that may not be possible to scrape with a traditional web scraper.
 
@@ -12,7 +12,7 @@ const puppeteer = require('puppeteer');
 (async () => {
   const browser = await puppeteer.launch();
   const page = await browser.newPage();
-  await page.goto('https://example.com');
+  await page.goto('https://radiojavan.com');
 
   // Extract data from the page
   const data = await page.evaluate(() => {
