@@ -1,4 +1,0 @@
-TO RUN THE PROGRAM:
-RUN THE COMMAND 
-
-`$ node index`
